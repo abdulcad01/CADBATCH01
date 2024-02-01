@@ -1,0 +1,18 @@
+.fon
+{
+    font-family: audiowide;
+    text-align: center;
+    float: right;
+     justify-content: center;
+     align-items: center;
+     display: inline-flex;
+     color: aliceblue;
+
+    
+    
+}
+body{
+    background: url(https://i.postimg.cc/wxPW2WYk/loginimg.jpg)  center center fixed;
+    background-size: cover;
+ 
+}
