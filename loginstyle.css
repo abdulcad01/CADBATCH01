@@ -2,11 +2,13 @@
 {
     font-family: audiowide;
     text-align: center;
-    float: right;
+    float: left;
      justify-content: center;
-     align-items: center;
-     display: inline-flex;
+     align-items:center;
+   padding-left: 500px;
+   padding-top: 200px;
      color: aliceblue;
+   
 
     
     
@@ -15,4 +17,18 @@ body{
     background: url(https://i.postimg.cc/wxPW2WYk/loginimg.jpg)  center center fixed;
     background-size: cover;
  
+}
+
+button
+
+{
+    font-family: audiowide;
+}
+  
+
+/*Search Button Css*/
+
+.search
+{
+    align-items: center;
 }

@@ -135,3 +135,21 @@ padding:  10px;
     padding: 50px;
     text-align: center;
  }
+
+ @media screen and (max-width : 700px){
+
+li a{
+
+  font-size: 10px;
+}
+  
+ }
+
+ @media screen and (max-height : 700px){
+
+  li a{
+  
+    font-size: 10px;
+  }
+    
+   }

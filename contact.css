@@ -1,17 +1,62 @@
 .confon 
 {
     font-family: audiowide;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center;
 }
-
-.color1
-{
-    color: red;
-    background-color: aqua;
+.conunderline{
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: audiowide;
+    text-align: center;
+    color: rgb(128, 12, 128);
+        padding-top: 20px;
 }
 
-.color2
-{
-    background-color: black;
+.off{
+    
+    font-size: 10px;
+    font-family: audiowide;
+    text-align: justify all;
+    padding-top: 20px;
+    padding-left: 300px;
 }
+
+.socialmedia 
+{
+    padding-left: 250px;
+    padding-bottom: 60px;
+
+display: flex;
+gap: 40px 40px;
+border-radius: 30px;
+height: 50px ;
+
+}
+
+.social{
+    font-family: audiowide;
+    font-size: 10px;
+ padding-top: 45px;
+    padding-left: 100px;
+    color: rgb(128, 12, 128);
+    text-decoration: underline;
+}
+
+.programincontact
+{
+    padding-left: 1100px;
+    font-family: audiowide;
+}
+
+.programdesign
+{
+    text-decoration: underline;
+  color: rgb(128, 12, 128);
+}
+
+.officecolor
+{
+    color: blueviolet;
+}
+

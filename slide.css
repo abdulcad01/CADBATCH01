@@ -1,16 +1,15 @@
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+/*.slideshow-container {
   max-width: 1300px;
   max-height: 10px;
   position: relative;
   margin: auto;
-}
+}*/
 .slideshow-container img 
 {
-    height: 650px;
-width: 900px;
+
 }
 
 /* Hide the images by default */
@@ -38,6 +37,7 @@ width: 900px;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  color: #800000;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -47,11 +47,11 @@ width: 900px;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+  color: #000000;
+  font-size: 50px;
+padding-top: 250px;
   position: absolute;
-  bottom: 8px;
+  top: 8px;
   width: 100%;
   text-align: center;
 }
@@ -75,10 +75,12 @@ width: 900px;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  position: relative;
+  top: 500px;
 }
 
 .active, .dot:hover {
-  background-color: #800000; /* If we touch the bullet this colour will into dark red
+  background-color: #14b383; /* If we touch the bullet this colour will into dark red
 }
 
 /* Fading animation */
