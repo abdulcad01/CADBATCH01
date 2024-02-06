@@ -7,7 +7,7 @@ color: rgb(255, 242, 242);
 } 
 body 
 {
-    background: url(https://i.postimg.cc/44vLjj7J/regbg2.jpg) no-repeat center center fixed;
+    background: url(https://i.postimg.cc/kXH8dXgL/registerimg.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -18,4 +18,13 @@ button{
 select
 {
     font-family: audiowide;
+}
+input
+{
+    border-radius: 100px;
+}
+
+button
+{
+    border-radius: 90px;
 }
