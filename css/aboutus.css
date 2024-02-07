@@ -1,14 +1,87 @@
+.coachhead
+{
+    font-family: audiowide;
+    padding-left: 500px;
+}
+
 .coachphoto img{
     
     padding-left: 40px;
     padding-top: 10px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 30px;
+    position: relative;
 
 }
 .details{
-    text-align: justify;
-    padding-left: 500px;
+    
+    padding-left: 400px;
     font-size: 10px;
-    padding-top: 1000px;
+    bottom: 300px;
+    font-family: audiowide;
+    position: relative;
+    
 }
+
+.coachphoto2 img {
+
+    padding-left: 40px;
+    padding-top: 1px;
+    bottom: 150px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.details2{
+    
+    padding-left: 400px;
+    font-size: 10px;
+    bottom: 430px;
+    font-family: audiowide;
+    position: relative;
+    
+}
+
+.coachphoto3 img {
+
+    padding-left: 40px;
+    padding-top: 1px;
+    bottom: 300px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.details3{
+    
+    padding-left: 400px;
+    font-size: 10px;
+    bottom: 590px;
+    font-family: audiowide;
+    position: relative;
+    
+}
+.coachphoto4 img {
+
+    padding-left: 40px;
+    padding-top: 1px;
+    bottom: 450px;
+    height: 300px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.details4{
+    
+    padding-left: 400px;
+    font-size: 10px;
+    bottom: 720px;
+    font-family: audiowide;
+    position: relative;
+    
+}
+
+
+
+

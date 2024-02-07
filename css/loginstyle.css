@@ -24,11 +24,8 @@ button
 {
     font-family: audiowide;
 }
-  
 
-/*Search Button Css*/
-
-.search
-{
-    align-items: center;
+.fg{
+    padding-left: 300px;
 }
+ 
