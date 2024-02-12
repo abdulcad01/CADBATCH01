@@ -149,5 +149,23 @@ li a{
  }
 
  
+ .recomp img
+ {
+  
+  
+ float: right;
+ width: 550px;
+ height: 360px;
+ border-radius: 10px;
+
+
+ }
+ .comp
+ {
+  font-family: Audiowide;
+  text-align: center;
+  font-size: 17px ;
+ }
+
 
  

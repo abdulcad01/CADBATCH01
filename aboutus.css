@@ -1,0 +1,37 @@
+.firstpara
+{
+    font-family: Audiowide;
+    grid-gap: 1000px;
+    padding: 50px;
+    text-align: justify all;
+    font-size: medium;
+    padding-bottom: 400px;
+ 
+}
+
+.first img{
+    float: right;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding-top: 75px;
+} 
+.wholebg
+{
+    background-color: white;
+text-align: center;
+grid-gap: 50px;
+}
+.secondwhole
+{
+    padding-bottom: 3000px;
+}
+ .secondpara
+ {
+   font-family: audiowide;
+
+ }
+ .secondparaheading
+ {
+    font-family: audiowide;
+ }
