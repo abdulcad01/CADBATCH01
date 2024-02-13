@@ -1,0 +1,14 @@
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\bin\Debug\net7.0\OBT.exe
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\bin\Debug\net7.0\OBT.deps.json
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\bin\Debug\net7.0\OBT.runtimeconfig.json
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\bin\Debug\net7.0\OBT.dll
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\bin\Debug\net7.0\OBT.pdb
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.AssemblyInfoInputs.cache
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.AssemblyInfo.cs
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.csproj.CoreCompileInputs.cache
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.dll
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\refint\OBT.dll
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.pdb
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\OBT.genruntimeconfig.cache
+C:\Users\ABDULCAD01\Desktop\CADBATCH\PROJECT\OBT\obj\Debug\net7.0\ref\OBT.dll
