@@ -39,18 +39,57 @@
 <div class="cl">
 <div class="headfont">
     <h1><center><i> TRANSFORM WITH RAMON DINO</i> </center></h1></div></div>
-    <!--Search Button-->
-
-    <form >
-        
-        <div class="search">  
-        <input type="text" placeholder="Search.." name="search2">
-        
-        
-        <button type="submit"></button>
-    </div>
-    </form>
-
+  
+     
+        <div id="searchContainer">
+            <input type="text" id="searchInput" placeholder="Search what you want ">
+            <div id="searchResults"></div>
+        </div>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const searchInput = document.getElementById('searchInput');
+                const searchResults = document.getElementById('searchResults');
+    
+                searchInput.addEventListener('input', function () {
+                    const query = this.value.trim();
+    
+                    // Implement your logic to fetch suggestions based on the query
+                    const suggestions = getSearchSuggestions(query);
+    
+                    // Display suggestions in the results dropdown
+                    displaySearchResults(suggestions);
+                });
+    
+                function getSearchSuggestions(query) {
+                    // Replace this with your own logic to fetch suggestions from a data source
+                    // For demonstration, returning a hardcoded array
+                    return ['Apple', 'Banana', 'Orange', 'Pineapple', 'Grapes'];
+                }
+    
+                function displaySearchResults(suggestions) {
+                    if (suggestions.length > 0) {
+                        const resultItems = suggestions.map(item => `<div class="resultItem">${item}</div>`).join('');
+                        searchResults.innerHTML = resultItems;
+                        searchResults.style.display = 'block';
+                    } else {
+                        searchResults.innerHTML = '';
+                        searchResults.style.display = 'none';
+                    }
+                }
+    
+                // Close the results dropdown when clicking outside the search container
+                document.addEventListener('click', function (event) {
+                    if (!searchContainer.contains(event.target)) {
+                        searchResults.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+    
+    </body>
+    </html>
+    
 
 <div class="headf">
 <ul>
@@ -194,10 +233,10 @@
         strong and ripped body. In this 16 weeks online course,
          I created a step by step practical plan for people who are tired of being small and want to bulk up with
           expert help and tested methods.
-        </p></div>
+        </p></div><br><br><br><br><br>
 <!--Recomposition-->
 <div class="recomp">
-    <img src="https://i.postimg.cc/hPXZYbP6/Untitled-design-4.png"
+    <img src="https://i.postimg.cc/W40gf2hD/recomp1.jpg"
 </div><br><br><br><br>
 
 <div class="coach">

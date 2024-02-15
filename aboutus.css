@@ -1,18 +1,18 @@
 .firstpara
 {
-    font-family: Audiowide;
-    grid-gap: 1000px;
-    padding: 50px;
-    text-align: justify all;
-    font-size: medium;
-    padding-bottom: 400px;
+ 
+padding-top: 20px;
+font-family: audiowide;
+text-align: center;
+margin: 30px;
+margin-right: 100px;
  
 }
 
 .first img{
     height: 400px;
     width: 400px;
-    float: left;
+    float: right;
     padding-top: 20px;
     border-radius: 30px;
 } 
@@ -27,11 +27,17 @@ grid-gap: 50px;
  .secondpara
  {
    font-family: audiowide;
+   padding-top: 20px;
+   text-align: center;
+   margin: 30px;
 
  }
  .secondparaheading
  {
     font-family: audiowide;
-padding-top: 450px;
+padding-top: 30px;
+color: rgb(128, 12, 128) ;
+text-decoration: underline;
     text-align: center;
+    font-size: 18px;
  }
