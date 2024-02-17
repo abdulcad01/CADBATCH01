@@ -1,24 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
- </head>
- <body>
-   <h1>JavaScript localStorage demo</h1>
-   <textarea id="myTextarea" rows="10" cols="80"></textarea>
-   <p></p>
-   <button onclick="mySave()">Save</button>
-   <button onclick="myLoad()">Load</button>
-   <script>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
 
-     function mySave() {
-       var myContent = document.getElementById("myTextarea").value;
-       localStorage.setItem("myContent", myContent);
-     }
+  font-family: bungee spice;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-     function myLoad() {
-       var myContent = localStorage.getItem("myContent");
-       document.getElementById("myTextarea").value = myContent;
-     }
-   </script>
- </body>
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff8f8;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #f3f3f3;}
+
+.show {display: block;}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Spice">
+</head>
+
+<!--html-->
+<body style="background-color:white;">
+
+
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">More</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Exercise</a>
+    <a href="#"> Diet Plan</a>
+    <a href="#" >Calculator</a>
+  </div>
+</div>
+<!--Javascript-->
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
 </html>

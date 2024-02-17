@@ -20,7 +20,7 @@ list-style: none;
 ul
 {
 display: flex;
-gap: 100px 100px;
+gap: 60px 60px;
 place-content: center;
 background-color: lightblue;
 }
@@ -31,9 +31,7 @@ background-color: red;
   place-items: center;
 
 }
-a:hoverS{
- background-color: yellowgreen;
-}
+
 .ramon img
 {
 height: 430px;
@@ -192,13 +190,49 @@ li a{
   display: none;
   z-index: 1;
 }
+/*dropdown*/
 
 .resultItem {
   padding: 10px;
-  border-bottom: 1px solid #ddd;
-  cursor: pointer;
+  
 }
 
 .resultItem:hover {
   background-color: #f5f5f5;
+}
+/*Dropdown*/
+.dropbtn {
+font-family: bungee spice;
+font-size: 16px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fbfffb;
 }
